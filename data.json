@@ -1,0 +1,53 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Howdy", "Greetings", "Good day"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! I'm here to help.", "Greetings! How may I help you?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "Farewell", "See you later", "Bye", "Until next time"],
+            "responses": ["Goodbye! Have a great day.", "Farewell! Come back soon.", "See you later! Take care.", "Bye! Stay well."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "Grateful"],
+            "responses": ["You're welcome!", "Anytime! Let me know if you need more help.", "Glad I could assist!", "No problem, happy to help."],
+            "context": [""]
+        },
+        {
+            "tag": "agriculture_crops",
+            "patterns": ["Tell me about agriculture crops", "Crop information", "What crops are suitable for my region?", "Crop cultivation practices", "Best crops to grow"],
+            "responses": ["Certainly! Agriculture crops vary based on climate and soil. I can provide details on specific crops. What crop are you interested in?", "I'm here to help with information on a variety of crops. Please specify the crop or ask about general crop information.", "Ask me about specific crops, and I'll share insights on cultivation practices, climate suitability, and more."],
+            "context": [""]
+        },
+        {
+            "tag": "soil_management",
+            "patterns": ["How to improve soil fertility?", "Soil management techniques", "Enhance soil quality", "Methods for better soil health", "Improving soil fertility"],
+            "responses": ["Improving soil fertility involves practices like composting, cover cropping, and using organic matter. Let me provide more details. Are you interested in a specific technique?", "Soil management is crucial. I can guide you through practices like crop rotation and soil testing. What specific information are you looking for?", "Healthy soil is the foundation of successful farming. I can share tips on improving soil fertility. What aspect would you like to know more about?"],
+            "context": [""]
+        },
+        {
+            "tag": "pest_control",
+            "patterns": ["Dealing with pests in crops", "Natural pest control methods", "Pesticides for crop protection", "Prevent crop damage from pests", "Managing crop pests"],
+            "responses": ["Pest control is essential for a thriving crop. I can provide information on natural methods, such as companion planting, and recommend safe pesticides. What specific pest are you dealing with?", "Managing crop pests involves strategies like integrated pest management (IPM). Let me guide you through effective methods. Which pest are you concerned about?", "Protecting crops from pests is crucial. I can share tips on identifying and controlling pests. Please specify the crop or pest for more targeted advice."],
+            "context": [""]
+        },
+        {
+            "tag": "organic_farming",
+            "patterns": ["Benefits of organic farming", "Switching to organic agriculture", "Organic farming practices", "Advantages of organic crops", "How to start with organic farming"],
+            "responses": ["Organic farming offers benefits like improved soil health and reduced environmental impact. I can share more advantages. What specific aspect of organic farming are you interested in?", "Transitioning to organic farming involves practices like avoiding synthetic chemicals. I can provide guidance based on your farming goals. What specific information do you need?", "Discovering the benefits of organic crops? I can explain the advantages and help you understand organic farming practices. What details are you looking for?"],
+            "context": [""]
+        },
+        {
+            "tag": "irrigation_methods",
+            "patterns": ["Different irrigation techniques", "Best irrigation methods", "Watering crops efficiently", "Irrigation practices for agriculture", "Optimizing water use in farming"],
+            "responses": ["Choosing the right irrigation method is crucial for crop success. Drip irrigation and sprinkler systems are common options. Would you like information on a specific method?", "Efficient irrigation is key to crop health. I can explain techniques like furrow irrigation and discuss their advantages. What specific information are you seeking about irrigation?", "Discover the best practices for watering your crops with methods like drip irrigation or flood irrigation. I can provide insights based on your requirements. What details would you like to know more about?"],
+            "context": [""]
+        }
+        
+    ]
+}
